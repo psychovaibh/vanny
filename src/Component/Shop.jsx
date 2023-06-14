@@ -10,7 +10,7 @@ export default function Shop(props) {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="breadcrumb__links">
-                        <Link to="./index.html"><i className="fa fa-home"></i> Home</Link>
+                        <Link to="/"><i className="fa fa-home"></i> Home</Link>
                         <span>Shop</span>
                     </div>
                 </div>
@@ -141,42 +141,42 @@ export default function Shop(props) {
                                 <h4>Shop by size</h4>
                             </div>
                             <div className="size__list">
-                                <label for="xxs">
+                                <label htmlFor="xxs">
                                     xxs
                                     <input type="checkbox" id="xxs"/>
                                     <span className="checkmark"></span>
                                 </label>
-                                <label for="xs">
+                                <label htmlFor="xs">
                                     xs
                                     <input type="checkbox" id="xs"/>
                                     <span className="checkmark"></span>
                                 </label>
-                                <label for="xss">
+                                <label htmlFor="xss">
                                     xs-s
                                     <input type="checkbox" id="xss"/>
                                     <span className="checkmark"></span>
                                 </label>
-                                <label for="s">
+                                <label htmlFor="s">
                                     s
                                     <input type="checkbox" id="s"/>
                                     <span className="checkmark"></span>
                                 </label>
-                                <label for="m">
+                                <label htmlFor="m">
                                     m
                                     <input type="checkbox" id="m"/>
                                     <span className="checkmark"></span>
                                 </label>
-                                <label for="ml">
+                                <label htmlFor="ml">
                                     m-l
                                     <input type="checkbox" id="ml"/>
                                     <span className="checkmark"></span>
                                 </label>
-                                <label for="l">
+                                <label htmlFor="l">
                                     l
                                     <input type="checkbox" id="l"/>
                                     <span className="checkmark"></span>
                                 </label>
-                                <label for="xl">
+                                <label htmlFor="xl">
                                     xl
                                     <input type="checkbox" id="xl"/>
                                     <span className="checkmark"></span>
@@ -188,42 +188,42 @@ export default function Shop(props) {
                                 <h4>Shop by size</h4>
                             </div>
                             <div className="size__list color__list">
-                                <label for="black">
+                                <label htmlFor="black">
                                     Blacks
                                     <input type="checkbox" id="black"/>
                                     <span className="checkmark"></span>
                                 </label>
-                                <label for="whites">
+                                <label htmlFor="whites">
                                     Whites
                                     <input type="checkbox" id="whites"/>
                                     <span className="checkmark"></span>
                                 </label>
-                                <label for="reds">
+                                <label htmlFor="reds">
                                     Reds
                                     <input type="checkbox" id="reds"/>
                                     <span className="checkmark"></span>
                                 </label>
-                                <label for="greys">
+                                <label htmlFor="greys">
                                     Greys
                                     <input type="checkbox" id="greys"/>
                                     <span className="checkmark"></span>
                                 </label>
-                                <label for="blues">
+                                <label htmlFor="blues">
                                     Blues
                                     <input type="checkbox" id="blues"/>
                                     <span className="checkmark"></span>
                                 </label>
-                                <label for="beige">
+                                <label htmlFor="beige">
                                     Beige Tones
                                     <input type="checkbox" id="beige"/>
                                     <span className="checkmark"></span>
                                 </label>
-                                <label for="greens">
+                                <label htmlFor="greens">
                                     Greens
                                     <input type="checkbox" id="greens"/>
                                     <span className="checkmark"></span>
                                 </label>
-                                <label for="yellows">
+                                <label htmlFor="yellows">
                                     Yellows
                                     <input type="checkbox" id="yellows"/>
                                     <span className="checkmark"></span>
@@ -236,10 +236,10 @@ export default function Shop(props) {
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div className="product__item">
-                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("img/shop/shop-1.jpg")'}}>
+                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("/img/shop/shop-1.jpg")'}}>
                                     <div className="label new">New</div>
                                     <ul className="product__hover">
-                                        <li><Link to="img/shop/shop-1.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
+                                        <li><Link to="/img/shop/shop-1.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
                                         <li><Link to="#"><span className="icon_heart_alt"></span></Link></li>
                                         <li><Link to="#"><span className="icon_bag_alt"></span></Link></li>
                                     </ul>
@@ -259,9 +259,9 @@ export default function Shop(props) {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="product__item">
-                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("img/shop/shop-2.jpg")'}}>
+                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("/img/shop/shop-2.jpg")'}}>
                                     <ul className="product__hover">
-                                        <li><Link to="img/shop/shop-2.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
+                                        <li><Link to="/img/shop/shop-2.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
                                         <li><Link to="#"><span className="icon_heart_alt"></span></Link></li>
                                         <li><Link to="#"><span className="icon_bag_alt"></span></Link></li>
                                     </ul>
@@ -281,9 +281,9 @@ export default function Shop(props) {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="product__item">
-                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("img/shop/shop-3.jpg")'}}>
+                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("/img/shop/shop-3.jpg")'}}>
                                     <ul className="product__hover">
-                                        <li><Link to="img/shop/shop-3.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
+                                        <li><Link to="/img/shop/shop-3.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
                                         <li><Link to="#"><span className="icon_heart_alt"></span></Link></li>
                                         <li><Link to="#"><span className="icon_bag_alt"></span></Link></li>
                                     </ul>
@@ -303,9 +303,9 @@ export default function Shop(props) {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="product__item">
-                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("img/shop/shop-4.jpg")'}}>
+                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("/img/shop/shop-4.jpg")'}}>
                                     <ul className="product__hover">
-                                        <li><Link to="img/shop/shop-4.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
+                                        <li><Link to="/img/shop/shop-4.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
                                         <li><Link to="#"><span className="icon_heart_alt"></span></Link></li>
                                         <li><Link to="#"><span className="icon_bag_alt"></span></Link></li>
                                     </ul>
@@ -325,10 +325,10 @@ export default function Shop(props) {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="product__item sale">
-                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("img/shop/shop-5.jpg")'}}>
+                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("/img/shop/shop-5.jpg")'}}>
                                     <div className="label">Sale</div>
                                     <ul className="product__hover">
-                                        <li><Link to="img/shop/shop-5.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
+                                        <li><Link to="/img/shop/shop-5.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
                                         <li><Link to="#"><span className="icon_heart_alt"></span></Link></li>
                                         <li><Link to="#"><span className="icon_bag_alt"></span></Link></li>
                                     </ul>
@@ -348,9 +348,9 @@ export default function Shop(props) {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="product__item">
-                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("img/shop/shop-6.jpg")'}}>
+                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("/img/shop/shop-6.jpg")'}}>
                                     <ul className="product__hover">
-                                        <li><Link to="img/shop/shop-6.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
+                                        <li><Link to="/img/shop/shop-6.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
                                         <li><Link to="#"><span className="icon_heart_alt"></span></Link></li>
                                         <li><Link to="#"><span className="icon_bag_alt"></span></Link></li>
                                     </ul>
@@ -370,9 +370,9 @@ export default function Shop(props) {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="product__item">
-                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("img/shop/shop-7.jpg")'}}>
+                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("/img/shop/shop-7.jpg")'}}>
                                     <ul className="product__hover">
-                                        <li><Link to="img/shop/shop-7.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
+                                        <li><Link to="/img/shop/shop-7.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
                                         <li><Link to="#"><span className="icon_heart_alt"></span></Link></li>
                                         <li><Link to="#"><span className="icon_bag_alt"></span></Link></li>
                                     </ul>
@@ -392,10 +392,10 @@ export default function Shop(props) {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="product__item">
-                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("img/shop/shop-8.jpg")'}}>
+                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("/img/shop/shop-8.jpg")'}}>
                                     <div className="label stockout stockblue">Out Of Stock</div>
                                     <ul className="product__hover">
-                                        <li><Link to="img/shop/shop-8.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
+                                        <li><Link to="/img/shop/shop-8.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
                                         <li><Link to="#"><span className="icon_heart_alt"></span></Link></li>
                                         <li><Link to="#"><span className="icon_bag_alt"></span></Link></li>
                                     </ul>
@@ -415,10 +415,10 @@ export default function Shop(props) {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="product__item sale">
-                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("img/shop/shop-9.jpg")'}}>
+                                <div className="product__item__pic set-bg" style={{backgroundImage:'url("/img/shop/shop-9.jpg")'}}>
                                     <div className="label">Sale</div>
                                     <ul className="product__hover">
-                                        <li><Link to="img/shop/shop-9.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
+                                        <li><Link to="/img/shop/shop-9.jpg" className="image-popup"><span className="arrow_expand"></span></Link></li>
                                         <li><Link to="#"><span className="icon_heart_alt"></span></Link></li>
                                         <li><Link to="#"><span className="icon_bag_alt"></span></Link></li>
                                     </ul>

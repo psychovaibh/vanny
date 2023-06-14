@@ -31,7 +31,7 @@ export default function NavBar(props) {
           </li>
         </ul>
         <div className="offcanvas__logo">
-          <Link to="./index.html">
+          <Link to="/">
             <img src="/img/logo.png" alt="" />
           </Link>
         </div>
@@ -48,11 +48,14 @@ export default function NavBar(props) {
         <div className="container-fluid">
           <div className="row">
             <div className="col-xl-3 col-lg-2">
-              <div className="header__logo banner__text " style={{margin:"-20px 0px"}}>
+              <div
+                className="header__logo banner__text "
+                style={{ margin: "-20px 0px" }}
+              >
                 {/* <Link to="./index.html">
                   <img src="/img/logo.png" alt="" />
                 </Link> */}
-                <h1 style={{fontSize:"50px"}}>Vanny</h1>
+                <h1 style={{ fontSize: "50px" }}>Vanny</h1>
               </div>
             </div>
             <div className="col-xl-6 col-lg-7">
@@ -62,36 +65,33 @@ export default function NavBar(props) {
                     <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <Link to="#">Women’s</Link>
+                    <Link to="/shop/Female/All/All">Women’s</Link>
                   </li>
                   <li>
-                    <Link to="#">Men’s</Link>
+                    <Link to="/shop/Male/All/All">Men’s</Link>
                   </li>
                   <li>
-                    <Link to="./shop">Shop</Link>
+                    <Link to="/shop/Kids/All/All">Kid's</Link>
+                  </li>
+                  <li>
+                    <Link to="/shop/All/All/All">Shop</Link>
                   </li>
                   <li>
                     <Link to="#">Pages</Link>
                     <ul className="dropdown">
                       <li>
-                        <Link to="./product-details.html">Product Details</Link>
+                        <Link to="/productdetails">Product Details</Link>
                       </li>
                       <li>
-                        <Link to="./shop-cart.html">Shop Cart</Link>
+                        <Link to="/cart">Shop Cart</Link>
                       </li>
                       <li>
-                        <Link to="./checkout.html">Checkout</Link>
-                      </li>
-                      <li>
-                        <Link to="./blog-details.html">Blog Details</Link>
+                        <Link to="/checkout">Checkout</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <Link to="./blog.html">Blog</Link>
-                  </li>
-                  <li>
-                    <Link to="./contact">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
               </nav>

@@ -10,7 +10,7 @@ export default function Contact(props) {
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcrumb__links">
-                <Link to="./index.html">
+                <Link to="/">
                   <i className="fa fa-home"></i> Home
                 </Link>
                 <span>Contact</span>
