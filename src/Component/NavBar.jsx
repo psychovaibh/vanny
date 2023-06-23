@@ -5,9 +5,9 @@ export default function NavBar(props) {
   return (
     <>
       {/* <!-- Page Preloder --> */}
-      <div id="preloder">
+      {/* <div id="preloder">
         <div className="loader"></div>
-      </div>
+      </div> */}
 
       {/* <!-- Offcanvas Menu Begin --> */}
       <div className="offcanvas-menu-overlay"></div>
@@ -77,6 +77,9 @@ export default function NavBar(props) {
                     <Link to="/shop/All/All/All">Shop</Link>
                   </li>
                   <li>
+                    <Link to="/contact">Contact</Link>
+                  </li>
+                  <li>
                     <Link to="#">Pages</Link>
                     <ul className="dropdown">
                       <li>
@@ -91,35 +94,30 @@ export default function NavBar(props) {
                     </ul>
                   </li>
                   <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/adminhome">Admin</Link>
                   </li>
                 </ul>
               </nav>
             </div>
             <div className="col-lg-3">
-              <div className="header__right">
-                <div className="header__right__auth">
-                  <Link to="#">Login</Link>
-                  <Link to="#">Register</Link>
-                </div>
-                <ul className="header__right__widget">
-                  <li>
-                    <span className="icon_search search-switch"></span>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <span className="icon_heart_alt"></span>
-                      <div className="tip">2</div>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <span className="icon_bag_alt"></span>
-                      <div className="tip">2</div>
-                    </Link>
+            <nav className="header__menu">
+                <ul>
+                  <li className="ml-5">
+                    <Link to="#">User Name</Link>
+                    <ul className="dropdown">
+                      <li>
+                        <Link to="/profile">Profile</Link>
+                      </li>
+                      <li>
+                        <Link to="/cart">Cart</Link>
+                      </li>
+                      <li>
+                        <button className="btn text-light pl-3 btn-sm">Logout</button>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
-              </div>
+              </nav>
             </div>
           </div>
           <div className="canvas__open">

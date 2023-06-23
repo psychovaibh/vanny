@@ -12,6 +12,9 @@ import Shop from "./Shop";
 import ProductDetails from "./ProductDetails";
 import ShopCart from "./ShopCart";
 import Checkout from "./Checkout";
+import Adminhome from "./Admin/Adminhome";
+import AdminMainCategory from "./Admin/AdminMainCategory";
+import AdminAddMainCategory from "./Admin/AdminAddMainCategory";
 function App(props) {
   return (
     <>
@@ -24,6 +27,12 @@ function App(props) {
           <Route path="/cart" element={<ShopCart />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/adminhome" element={<Adminhome />} />
+          <Route path="/adminmaincategory" element={<AdminMainCategory />} />
+          <Route
+            path="/admin-add-maincategory"
+            element={<AdminAddMainCategory />}
+          />
         </Routes>
         <Footer />
       </BrowserRouter>

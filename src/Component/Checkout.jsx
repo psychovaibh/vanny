@@ -82,7 +82,7 @@ export default function Checkout(props) {
                             </div>
                             <div className="col-lg-12">
                                 <div className="checkout__form__checkbox">
-                                    <label for="acc">
+                                    <label htmlFor="acc">
                                         Create an acount?
                                         <input type="checkbox" id="acc"/>
                                         <span className="checkmark"></span>
@@ -95,7 +95,7 @@ export default function Checkout(props) {
                                         <input type="text"/>
                                     </div>
                                     <div className="checkout__form__checkbox">
-                                        <label for="note">
+                                        <label htmlFor="note">
                                             Note about your order, e.g, special noe for delivery
                                             <input type="checkbox" id="note"/>
                                             <span className="checkmark"></span>
@@ -131,19 +131,19 @@ export default function Checkout(props) {
                                     </ul>
                                 </div>
                                 <div className="checkout__order__widget">
-                                    <label for="o-acc">
+                                    <label htmlFor="o-acc">
                                         Create an acount?
                                         <input type="checkbox" id="o-acc"/>
                                         <span className="checkmark"></span>
                                     </label>
                                     <p>Create am acount by entering the information below. If you are a returing customer
                                     login at the top of the page.</p>
-                                    <label for="check-payment">
+                                    <label htmlFor="check-payment">
                                         Cheque payment
                                         <input type="checkbox" id="check-payment"/>
                                         <span className="checkmark"></span>
                                     </label>
-                                    <label for="paypal">
+                                    <label htmlFor="paypal">
                                         PayPal
                                         <input type="checkbox" id="paypal"/>
                                         <span className="checkmark"></span>

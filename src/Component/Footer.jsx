@@ -20,68 +20,32 @@ export default function Footer(props) {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt cilisis.
                 </p>
-                <div className="footer__payment">
-                  <Link to="#">
-                    <img src="img/payment/payment-1.png" alt="" />
-                  </Link>
-                  <Link to="#">
-                    <img src="img/payment/payment-2.png" alt="" />
-                  </Link>
-                  <Link to="#">
-                    <img src="img/payment/payment-3.png" alt="" />
-                  </Link>
-                  <Link to="#">
-                    <img src="img/payment/payment-4.png" alt="" />
-                  </Link>
-                  <Link to="#">
-                    <img src="img/payment/payment-5.png" alt="" />
-                  </Link>
-                </div>
               </div>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-5">
               <div className="footer__widget">
-                <h6>Quick links</h6>
+                <h6>Menu</h6>
                 <ul>
                   <li>
-                    <Link to="#">About</Link>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <Link to="#">Blogs</Link>
+                    <Link to="/about">About</Link>
                   </li>
                   <li>
-                    <Link to="#">Contact</Link>
+                    <Link to="/shop/All/All/All">Shop</Link>
                   </li>
                   <li>
-                    <Link to="#">FAQ</Link>
+                    <Link to="/contact">Conatact</Link>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-2 col-md-3 col-sm-4">
-              <div className="footer__widget">
-                <h6>Account</h6>
-                <ul>
-                  <li>
-                    <Link to="#">My Account</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Orders Tracking</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Checkout</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Wishlist</Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-8 col-sm-8">
+            <div className="col-lg-5 col-md-8 col-sm-8">
               <div className="footer__newslatter">
                 <h6>NEWSLETTER</h6>
                 <form action="#">
-                  <input type="text" placeholder="Email" />
+                  <input type="text" placeholder="Email"/>
                   <button type="submit" className="site-btn">
                     Subscribe
                   </button>
